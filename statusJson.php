@@ -23,7 +23,7 @@
 // +----------------------------------------------------------------------+
 
 // Change this accordingly
-$statusFile = "/opt/local/var/nagios/status.dat";
+$statusFile = "/tmp/status.dat";
 
 $nag_version = getFileVersion($statusFile);
 $created_ts = 0;
